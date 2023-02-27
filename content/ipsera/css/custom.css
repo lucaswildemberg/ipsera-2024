@@ -1,0 +1,77 @@
+.mcb-column-inner{position:relative;margin-top:var(--mfn-column-gap-top);margin-bottom:var(--mfn-column-gap-bottom);margin-left:var(--mfn-column-gap-left);margin-right:var(--mfn-column-gap-right);}
+.clearfix:before,.clearfix:after{content:'\0020';display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+.clearfix:after{clear:both;}
+.image_frame{display:block;overflow:hidden;margin:0;border-style:solid;border-width:0;max-width:100%;line-height:0;box-sizing:border-box;}
+.image_item.image_frame:not(.svg){display:inline-block;}
+.image_frame .image_wrapper{box-sizing:border-box;}
+.image_frame.no_border{border-width:0;}
+.image_frame .image_wrapper{position:relative;overflow:hidden;}
+.image_frame .image_wrapper img:not(.ls-l){position:relative;top:0;-webkit-transform:scale(1);-moz-transform:scale(1);-o-transform:scale(1);transform:scale(1);}
+.image_frame:hover .image_wrapper img,.image_frame:focus .image_wrapper img{top:-15px;}
+.image_frame.no_link:hover .image_wrapper img,.image_frame.no_link:focus .image_wrapper img{top:0;}
+.image_frame .image_wrapper img{-webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out;}
+.if-modern-overlay .image_frame:hover .image_wrapper img,.if-modern-overlay .image_frame:focus .image_wrapper img{top:0;}
+hr{display:block;border:none;outline:none;height:1px;width:100%;margin:0 auto 15px;clear:both;}
+hr{margin:0 auto 15px;clear:both;}
+hr.no_line{background:none;color:transparent;}
+::selection{color:#fff;}
+hr{background-color:rgba(0, 0, 0, .08);color:rgba(0, 0, 0, .08);}
+.image_frame{border-color:#f8f8f8;}
+.image_frame .image_wrapper{border-color:#e2e2e2;}
+.section_wrapper{display:flex;align-items:flex-start;flex-wrap:wrap;}
+/*! CSS Used from: file:///C:/Users/Cliente/Downloads/html/content/itservice6/css/itservice6.css */
+.mcb_section_custom153.custom-width .section_wrapper{max-width:1500px;}
+.mcb_section_custom153{padding-top:120px;padding-right:1%;padding-bottom:80px;padding-left:1%;background-color:#1268FB;background-image:url(file:///C:/Users/Cliente/Downloads/html/content/itservice6/images/itservice6-section-bg1.webp);background-repeat:no-repeat;background-position:top center;background-size:cover;}
+.mcb-section .mcb_wrap_custom221 .mcb-wrap_inner{background-repeat:no-repeat;background-position:bottom right;background-size:contain;}
+.mcb_item_custom1016 .column_attr{color:#FFFFFF;}
+.mcb_item_custom1016 .mcb-column-inner{padding-top:50px;padding-right:10%;padding-bottom:35px;padding-left:10%;margin-bottom:0px;background-color:#8cc63f;}
+.mcb_item_custom1016 .mcb-column-inner:hover{background-color:#83be35;}
+.mcb_item_custom1017 .column_attr{color:#FFFFFF;}
+.mcb_item_custom1017 .mcb-column-inner{padding-top:50px;padding-right:10%;padding-bottom:35px;padding-left:10%;margin-bottom:0px;background-color:#00a7e5;}
+.mcb_item_custom1017 .mcb-column-inner:hover{background-color:#069ed8;}
+.mcb_item_custom1018 .column_attr{color:#FFFFFF;}
+.mcb_item_custom1018 .mcb-column-inner{padding-top:50px;padding-right:10%;padding-bottom:35px;padding-left:10%;margin-bottom:0px;background-color:#8cc63f;}
+.mcb_item_custom1018 .mcb-column-inner:hover{background-color:#83be35;}
+@media (max-width: 959px){
+.mcb_section_custom153{padding-top:60px;padding-bottom:20px;}
+.mcb-section .mcb_wrap_custom221 .mcb-wrap_inner{padding-right:1%;padding-left:1%;}
+.mcb-section .mcb_wrap_custom232 .mcb-wrap_inner{padding-right:1%;padding-left:1%;}
+.mcb-section .mcb_wrap_custom233 .mcb-wrap_inner{padding-right:1%;padding-left:1%;}
+}
+@media (max-width: 767px){
+.mcb_section_custom153{padding-top:60px;padding-bottom:50px;}
+.mcb_item_custom1016 .column_attr{text-align:center;}
+.mcb_item_custom1017 .column_attr{text-align:center;}
+.mcb_item_custom1018 .column_attr{text-align:center;}
+}
+
+.button-custom .button_theme.btn-white {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid #fff;
+  box-shadow: none;
+  background-image: none;
+}
+
+.button-custom .button_theme.btn-white:hover {
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+p {
+  line-height: 1.5 !important;
+}
+#Footer, #Footer .widget_recent_entries ul li a {
+    background-color: #85cb45;
+}
+
+.footer-copy-center #Footer .footer_copy .copyright {
+    float: none;
+    margin: 0 0 10px 0;
+    color: #fff;
+}
