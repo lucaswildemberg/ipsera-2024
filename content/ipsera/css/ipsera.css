@@ -88,25 +88,25 @@ h1, .text-logo #logo {
 h2 {
 	font-size: 55px;
 	line-height: 60px;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: 0px;
 }
 h3 {
 	font-size: 30px;
 	line-height: 40px;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: 0px;
 }
 h4 {
 	font-size: 20px;
 	line-height: 30px;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: 0px;
 }
 h5 {
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 30px;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: 0px;
 }
 h6 {
@@ -118,7 +118,7 @@ h6 {
 #Intro .intro-title {
 	font-size: 70px;
 	line-height: 70px;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: 0px;
 }
 @media only screen and (min-width: 768px) and (max-width: 959px) {
@@ -2026,7 +2026,7 @@ hr.hr_color, .hr_color hr, .hr_dots span {
 	color: #9b9b9b;
 }
 #Footer a {
-	color: #fff;
+	color: #000;
 	font-weight: 600;
 }
 #Footer a:hover {
@@ -3877,7 +3877,7 @@ p.flv_align_right, div.flv_align_right {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	margin-right: .618em;
-	content: "î€·";
+	content: "ÃƒÂ®Ã¢â€šÂ¬Ã‚Â·";
 	text-decoration: none;
 	margin-left: -1.5em;
 	line-height: 1.75;
@@ -3892,7 +3892,7 @@ p.flv_align_right, div.flv_align_right {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	margin-right: .618em;
-	content: "î€­";
+	content: "ÃƒÂ®Ã¢â€šÂ¬Ã‚Â­";
 	text-decoration: none;
 	margin-left: -1.5em;
 	line-height: 1.75;
@@ -3927,7 +3927,7 @@ p.flv_align_right, div.flv_align_right {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	margin-right: .618em;
-	content: "î€“";
+	content: "ÃƒÂ®Ã¢â€šÂ¬Ã¢â‚¬Å“";
 	text-decoration: none;
 	color: #a00
 }
@@ -3959,7 +3959,7 @@ p.flv_align_right, div.flv_align_right {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	margin-right: .618em;
-	content: "î€“";
+	content: "ÃƒÂ®Ã¢â€šÂ¬Ã¢â‚¬Å“";
 	text-decoration: none;
 	color: #a00;
 	vertical-align: inherit;
@@ -4056,7 +4056,7 @@ p.flv_align_right, div.flv_align_right {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	margin-right: .618em;
-	content: "î€“";
+	content: "ÃƒÂ®Ã¢â€šÂ¬Ã¢â‚¬Å“";
 	text-decoration: none;
 	color: #a00
 }
@@ -4176,7 +4176,7 @@ p.flv_align_right, div.flv_align_right {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	margin-right: .618em;
-	content: "î€Š";
+	content: "ÃƒÂ®Ã¢â€šÂ¬Ã…Â ";
 	text-decoration: none
 }
 .woocommerce-account ul.digital-downloads li .count {
@@ -4235,7 +4235,7 @@ p.flv_align_right, div.flv_align_right {
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	margin-left: .618em;
-	content: "î€™";
+	content: "ÃƒÂ®Ã¢â€šÂ¬Ã¢â€žÂ¢";
 	text-decoration: none
 }
 #add_payment_method .cart-collaterals .shipping-calculator-form, .woocommerce-cart .cart-collaterals .shipping-calculator-form, .woocommerce-checkout .cart-collaterals .shipping-calculator-form {
@@ -6400,7 +6400,7 @@ h3#ship-to-different-address label {
 		width: 100%!important;
 		float: left!important
 	}
-	/*  Showing 1â€“12 of 23 results + select */
+	/*  Showing 1ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“12 of 23 results + select */
 	.woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count {
 		text-align: center;
 		margin-bottom: 15px

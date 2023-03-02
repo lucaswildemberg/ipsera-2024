@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .mcb-column-inner{position:relative;margin-top:var(--mfn-column-gap-top);margin-bottom:var(--mfn-column-gap-bottom);margin-left:var(--mfn-column-gap-left);margin-right:var(--mfn-column-gap-right);}
 .clearfix:before,.clearfix:after{content:'\0020';display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
 .clearfix:after{clear:both;}
@@ -74,4 +77,128 @@ p {
     float: none;
     margin: 0 0 10px 0;
     color: #fff;
+}
+
+
+.arrow-container{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 120px;
+  left: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .arrow-container{
+    display: none;
+  }
+}
+.arrow-1{
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  opacity: 1;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.arrow-2{
+  width: 60px;
+  height: 60px;
+  background: #00a9e9;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+  display: table;
+  cursor: pointer;
+}
+
+.arrow-2:before{
+  width: 52px;
+  height: 52px;
+  content: "";
+  border: 2px solid #037ba8;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 3;
+}
+
+.arrow-2 i{
+  font-size: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+    cursor: pointer;
+  /* -webkit-animation: bounce 1000ms ease  infinite;
+    -moz-animation: bounce 1000ms ease infinite;
+    -o-animation: bounce 1000ms ease infinite;
+    animation: bounce 1000ms ease infinite; */
+}
+
+
+/* Custom Animate.css */
+
+@-webkit-keyframes bounce {
+  0%, 100% {top: 9px; opacity: 0.5}
+  25% {top: 12px; opacity: 1}
+  50% {opacity: 0.8}
+}
+@keyframes bounce {
+  0%, 100% {top: 9px; opacity: 0.5}
+  25% {top: 12px; opacity: 1}
+  50% {opacity: 0.8}
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.4, .4, .4);
+            transform: scale3d(.4, .4, .4);
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.4, .4, .4);
+            transform: scale3d(.4, .4, .4);
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+          animation-name: zoomIn;
+          -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+           animation-iteration-count: infinite;
 }
